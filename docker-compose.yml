@@ -1,0 +1,11 @@
+main:
+  # image: cbrandlehner/homebridge:0.16
+  build: ./
+  restart: always
+  cap_add:
+    - NET_ADMIN
+  ports:
+    - "51826:51826"
+  volumes:
+    - ./config:/root/.homebridge
+  net: "host"
