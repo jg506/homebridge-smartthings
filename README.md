@@ -3,13 +3,13 @@
 [![GitHub forks](https://img.shields.io/github/forks/AddoSolutions/homebridge-smartthings.svg?style=social&label=Fork)](https://github.com/AddoSolutions/homebridge-smartthings)
 # Homebridge SmartThings on Docker
 
-**Before this will be useful** you will need to read and follow the steps in the below article.  Be sure to place the config.json file in `my-docker-directory/config/config.json`.
+1. **Before this will be useful** you will need to read and follow the steps in the below article.  Be sure to place the config.json file in `my-docker-directory/config/config.json`.
 
 [Setup Homebridge Smartthings](https://www.npmjs.com/package/homebridge-smartthings)
 
 Once you have that, the rest is cheesecake.
 
-Let's make this really simple, and use a docker-compose file.
+2. Let's make this really simple, and use a docker-compose file.  Place this in `docker-compose.yml` inside of your `my-docker-directory` folder.
 
 ```yml
 main:
@@ -25,7 +25,8 @@ main:
   net: "host"
 ```
 
-Then run: `docker-compose up -d`
+
+3. Now, you simply need to run: `docker-compose up -d` while inside that directory and you are off to the races!  You will see the device appear on your homekit network and you can now do the happy dance
 
 ### Example Config
 
