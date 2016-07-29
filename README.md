@@ -3,9 +3,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/AddoSolutions/homebridge-smartthings.svg?style=social&label=Fork)](https://github.com/AddoSolutions/homebridge-smartthings)
 # Homebridge SmartThings on Docker
 
-1. **Before this will be useful** you will need to read and follow the steps in the below article.  Be sure to place the config.json file in `my-docker-directory/config/config.json`.
+1. **Before this will be useful** you will need to read and follow the steps in the below article.  Be sure to place the config.json file in `my-docker-directory/config/config.json`.  You only need to do the `SmartThings API installation` and `config.json` example part.
 
-[Setup Homebridge Smartthings](https://www.npmjs.com/package/homebridge-smartthings)
+[Setup Homebridge Smartthings](https://www.npmjs.com/package/homebridge-smartthings#smartthings-api-installation)
 
 Once you have that, the rest is cheesecake.
 
