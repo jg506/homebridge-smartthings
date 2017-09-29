@@ -20,6 +20,7 @@ RUN apt-get install -y locales
 RUN apt-get install -y curl wget git python build-essential make g++ libavahi-compat-libdnssd-dev libkrb5-dev vim net-tools nano
 RUN alias ll='ls -alG'
 
+
 ##################################################
 # Install homebridge                             #
 ##################################################
