@@ -33,7 +33,7 @@ RUN npm install -g homebridge-smartthings --unsafe-perm
 RUN npm install -g homebridge-hunterdouglas --unsafe-perm
 RUN npm install -g homebridge-milight --unsafe-perm
 RUN npm install -g homebridge-harmonyhub --unsafe-perm
-RUN npm install -g homebridge-milight --unsafe-perm
+# RUN npm install -g homebridge-milight --unsafe-perm
 # RUN npm install -g homebridge-people --unsafe-perm
  RUN npm install -g homebridge-tesla --unsafe-perm
 #RUN npm install -g homebridge-mqttswitch --unsafe-perm
